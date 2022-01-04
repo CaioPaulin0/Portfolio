@@ -1,0 +1,195 @@
+@media (max-width:1200px){
+   .home div{
+       width: 782px;
+   }
+
+   .sobreContainer{
+    width: 782px;
+   }
+
+   .projetosContainer{
+    width: 782px;
+}
+
+   .projetoGeral{
+       width: max-content;
+       height: max-content;
+       grid-template-columns: auto;
+       margin: auto;
+   }
+
+   .conhecimentoContainer{
+    width: 782px;
+   }
+
+   .contatosContainer{
+    width: 782px;
+}
+
+   .footerContainer{
+    width: 782px;
+}
+}
+
+@media (max-width:800px){
+    .headerMobile{
+        display: none;
+    }
+
+    .headerMobileS{
+        display: block;
+        height: 80px;
+        width: 100%;
+        position: absolute;
+        position: fixed;
+        z-index: 1;
+        background-color: #0a3357;
+        opacity: 0.9;
+    }
+
+    .headerMobileS i{
+        font-size: 45px;
+        color: #f7f7f7;
+        margin-left: 30px;
+        position: relative;
+        top: -14.5px;
+        cursor: pointer;
+    }
+    
+    .headerMobileS img{
+        height: 75px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 55%;
+    }
+    
+    .headerS{
+        width: 100%;
+        height: 400px;
+        background-color: #0a3357;
+        display: none;
+        position: relative;
+        top: -2px;
+        transition: 0.2s;
+    }
+
+    .headerS-active{
+        display: block;
+    }
+
+    .headerS-active a:active{
+        color: #1C94FC;
+    }
+
+    .headerMobileS ul{
+        width: min-content;
+        display: grid;
+        list-style-type: none;
+        padding: 0;
+        margin: auto;
+    }
+
+    .headerMobileS li{
+        margin-top: 50px;
+    }
+
+    .headerMobileS a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        text-decoration: none;
+        color: #f7f7f7;
+        cursor: pointer;
+        margin: auto;
+        padding: 0;
+    }
+
+    .home div{
+        width: 579px;
+
+    }
+
+    .sobreContainer{
+        width: 579px;
+    }
+
+    .sobreContainer p{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .sobreContainerTexto h2{
+        text-align: center;
+    }
+
+    .sobreContainerAni{
+        display: none;
+    }
+
+    .projetosContainer{
+        width: 579px;
+    }
+
+    .conhecimentoContainer{
+        width: 579px;
+    }
+
+    .footerContainer{
+        width: 579px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width:596px){
+    .home div{
+        width: 350px;
+    }
+
+    .home span{
+        font-size: 90px;
+    }
+
+    .sobreContainer{
+        width: 350px;
+    }
+
+    .projetosContainer{
+        width: 350px;
+    }
+
+    .projetoBox{
+        width: max-content;
+        display: grid;
+        transform: scale(0.9);
+    }
+
+    .conhecimentoContainer{
+        width: 350px;
+    }
+
+    .conhecimentoContainer div:nth-child(1n){
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        gap: 15px;
+    }
+
+    .conhecimentoContainer i{
+        border: 3px solid transparent;
+    }
+
+    .footerContainer{
+        width: 350px;
+    }
+
+    .footerContainer div:nth-child(1){
+        width: max-content;
+    }
+
+    .footerContainer div:nth-child(2){
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        justify-content: center;
+    }
+}
