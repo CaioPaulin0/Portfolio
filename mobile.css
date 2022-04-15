@@ -36,78 +36,7 @@
 }
 
 @media (max-width:800px){
-    .headerMobile{
-        display: none;
-    }
-
-    .headerMobileS{
-        display: block;
-        height: 80px;
-        width: 100%;
-        position: absolute;
-        position: fixed;
-        z-index: 1;
-        background-color: #0a3357;
-        opacity: 0.9;
-    }
-
-    .headerMobileS i{
-        font-size: 45px;
-        color: #f7f7f7;
-        margin-left: 30px;
-        position: relative;
-        top: -14.5px;
-        cursor: pointer;
-    }
     
-    .headerMobileS img{
-        height: 75px;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        margin-left: 55%;
-    }
-    
-    .headerS{
-        width: 100%;
-        height: 400px;
-        background-color: #0a3357;
-        display: none;
-        position: relative;
-        top: -2px;
-        transition: 0.2s;
-    }
-
-    .headerS-active{
-        display: block;
-    }
-
-    .headerS-active a:active{
-        color: #1C94FC;
-    }
-
-    .headerMobileS ul{
-        width: min-content;
-        display: grid;
-        list-style-type: none;
-        padding: 0;
-        margin: auto;
-    }
-
-    .headerMobileS li{
-        margin-top: 50px;
-    }
-
-    .headerMobileS a{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 30px;
-        text-decoration: none;
-        color: #f7f7f7;
-        cursor: pointer;
-        margin: auto;
-        padding: 0;
-    }
-
     .home div{
         width: 579px;
 

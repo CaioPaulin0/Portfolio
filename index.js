@@ -5,6 +5,6 @@ headerToggle.addEventListener('click', function(){
 
     const headers = document.querySelector('.headerS')
 
-    headers.classList.toggle('headerS-active')
+    headers.classList.toggle('active')
 
 })
