@@ -1,149 +1,242 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icon.ico">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/820c67e293.js" crossorigin="anonymous"></script>
     <title>Portfólio| Caio Paulino - Front-end</title>
 </head>
 <body>
     <header>
-        <i class="fas fa-bars" id="headerBar"></i>
-        <img src="img/LOGO.png">
-        <nav class="headerS">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contatos">Contatos</a></li>
-            </ul>
-        </nav>
+        <svg id="toggle" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="40" height="40"
+viewBox="0 0 24 24"
+style=" fill:#ffffff;"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"></path></svg>
+        <div class="headerCont">
+          <nav>
+              <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#projetos">Projetos</a></li>
+                  <li><a href="#contato">Contato</a></li>
+
+                  <div>
+                    <a href="https://github.com/CaioPaulin0"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/caiopaulin0/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/caiopaulin0/"><i class="fab fa-instagram-square"></i></a>
+                    <a href="mailto:caiopaulinoPE@hotmail.com"><i class="fas fa-envelope-square"></i></a>
+                  </div>
+              </ul>
+          </nav>
+        </div>
     </header>
 
-    <section class="home" id="home">
-        <div>
-            <h1>Ola, meu nome é
-                <br><span>Caio Paulino</span>
-                <br>Dev front-end, localizado em Jaboatão dos Guararapes, Pernambuco.Em busca da minha primeira
-                oportunidade de emprego na área desenvolvimento Web.
-            </h1>
-        </div>
-    </section>
-
-    <section class="sobre" id="sobre">
-        <div class="sobreContainer">
-            <div class="sobreContainerAni">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-js-square"></i>
-                <i class="fab fa-react"></i>
-            </div>
-            <div class="sobreContainerTexto">
-                <h2>Quem sou</h2>
-                <p>Sou um apaixonado por tecnologia tanto hardware quanto em software também um estudioso na área de astronomia, comecei com front end em maio de 2021, atualmente estou a procura da minha primeira 
-                    oportunidade de emprego na área</p>
-            </div>
-        </div>
-    </section>
-    
-    <section class="projetos" id="projetos">
-        <div class="projetosContainer">
-         <h2>Projetos</h2>
-          <div class="projetoGeral">
-
-           <div class="projetoBox">
-            <a href="https://caiopaulin0.github.io/FdsMusic/"><img src="img/projeto1.png"></a>
-             <div class="projetoBoxContainer">
-              <h3>Lading page</h3>
-               <p>Feito para estudos praticos</p>
-                <div class="projetoTecnologia">
-                 <i class="fab fa-html5"></i>
-                 <i class="fab fa-css3-alt"></i>
-                 <i class="fab fa-js-square"></i>
-                </div>
-               </div>
-              </div>
-
-              <div class="projetoBox">
-                <a href="https://caiopaulin0.github.io/Doggos/"><img src="img/projeto2.png"></a>
-                 <div class="projetoBoxContainer">
-                  <h3>Tela de login</h3>
-                   <p>Feito para estudos praticos</p>
-                    <div class="projetoTecnologia">
-                     <i class="fab fa-html5"></i>
-                     <i class="fab fa-css3-alt"></i>
-                     <i class="fab fa-js-square"></i>
-                     
+    <main>
+        <section class="home" id="home">
+            <div class="homeCont">
+                <div>
+                    <h1>Ola, meu nome é
+                    </br>
+                       <span>Caio Paulino</span></br>
+                    Dev Front - End
+                    </h1>
+                    <div class="homeMidia">
+                        <a href="https://github.com/CaioPaulin0"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/caiopaulin0/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/caiopaulin0/"><i class="fab fa-instagram-square"></i></a>
+                        <a href="mailto:caiopaulinoPE@hotmail.com"><i class="fas fa-envelope-square"></i></a>
                     </div>
-                   </div>
-                  </div>
+                </div>
 
-                  <div class="projetoBox">
-                    <img src="https://img.icons8.com/metro/170/f7f7f7/worker-with-roadblock.png"/>
-                     <div class="projetoBoxContainer">
-                      <h3>Em andamento</h3>
-                       <p>Feito para estudos praticos</p>
-                        <div class="projetoTecnologia">
-                         <i class="fab fa-html5"></i>
-                         <i class="fab fa-css3-alt"></i>
-                         <i class="fab fa-js-square"></i>
-                         <i class="fab fa-react"></i>
-                        </div>
-                       </div>
-                      </div>
-        
-                      <div class="projetoBox">
-                        <img src="https://img.icons8.com/metro/170/f7f7f7/worker-with-roadblock.png"/>
-                         <div class="projetoBoxContainer">
-                            <h3>Em andamento</h3>
-                            <p>Feito para estudos praticos</p>
-                             <div class="projetoTecnologia">
-                              <i class="fab fa-html5"></i>
-                              <i class="fab fa-css3-alt"></i>
-                              <i class="fab fa-js-square"></i>
-                              <i class="fab fa-react"></i>
-                            </div>
-                           </div>
-                          </div>
-
-           </div>
-        </div>
-    </section>
-
-    <section class="conhecimento">
-        <div class="conhecimentoContainer">
-            <h2>Conhecimentos</h2>
-            <div>
-                <i class="fab fa-html5" width="20px"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-js-square"></i>
-                <i class="fab fa-react"></i>
+                    <img src="./img/computer.png">
             </div>
-
-            <div id="conhecimentoText"></div>
+        </section>
+        <section class="sobre" id="sobre">
+        <div class="sobreCont" data-window=>
+            <img src="./img/people.png">
+            <div class="textoF">
+                <span>Quem sou</span>
+                <p>Sou um apaixonado por tecnologia tanto hardware quanto em software também um estudioso na área de astronomia, comecei com front end em maio de 2021, atualmente estou a procura da minha primeira oportunidade de emprego na área.</p>
+            </div>
         </div>
-    </section>
+        </section>
+        <section class="habilidades">
+            <div class="habilidadesCont" data-window>
+                <img src="./img/habilidades.png" alt="habilidades-pessoa">
+                <div class="habilidadesTextos">
+                    <span>Habilidades</span>
+                    <div>
+                        <i class="fa-brands fa-html5"></i>
+    
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+    
+                        <i class="fa-brands fa-react"></i>
+    
+                        <i class="fa-brands fa-sass"></i>
+                    </div>
+                    <p>Estou sempre aprimorando minhas técnica e procurando sempre descobrir coisas novas</p>
+                </div>
+            </div>
+        </section>
+        <section class="projetos" id="projetos">
+            <div class="projetosCont">
+                <span style="font-size: 2.5rem;">PROJETOS</span>
+            <div class="buttons">
+                    <button data-button><i class="fa-solid fa-user"></i>Pessoais</button>
+                    <button data-button> <i class="fa-solid fa-user-tie"></i>Profissional</button>
+            </div>
+              <div class="projetosAll">
 
-    <footer id="contatos">
-        <div class="footerContainer">
+                <div class="projetoSlide" data-jobs="1">
+                    <a href="https://caiopaulin0.github.io/FdsMusic/"><img src="./img/projeto1.png"></a>
+                    <div class="projetoSlideTexto">
+                        <span>FDS Music</span>
+                        <p>tecnologias</p>
+                        <div class="projetoSlideIcon">
+                            <i class="fa-brands fa-html5"></i>
+
+                            <i class="fa-brands fa-css3-alt"></i>
+
+                            <i class="fa-brands fa-js"></i>
+
+                        </div>
+                </div>
+                </div>
+
+                <div class="projetoSlide" data-jobs="1">
+                    <a href="https://caiopaulin0.github.io/Doggos/"><img src="./img/projeto2.png"></a>
+                    <div class="projetoSlideTexto">
+                        <span>Tela de Login</span>
+                        <p>tecnologias</p>
+                        <div class="projetoSlideIcon">
+                            
+                            <i class="fa-brands fa-html5"></i>
+
+                            <i class="fa-brands fa-css3-alt"></i>
+
+                            <i class="fa-brands fa-js"></i>
+
+                        </div>
+                </div>
+                </div>
+
+                <div class="projetoSlide" data-jobs="1">
+                    <a href="https://caiopaulin0.github.io/ecommerce-product-page-main/"><img src="./img/projeto4.png"></a>
+                    <div class="projetoSlideTexto">
+                        <span>Ecommerce Page</span>
+                        <p>tecnologias</p>
+                        <div class="projetoSlideIcon">
+                            <i class="fa-brands fa-html5"></i>
+
+                            <i class="fa-brands fa-css3-alt"></i>
+
+                            <i class="fa-brands fa-js"></i>
+
+                        </div>
+                </div>
+                </div>
+
+                <div class="projetoSlide" data-jobs="1">
+                    <a href="https://jovial-bartik-36f87f.netlify.app/"><img src="./img/projeto6.png"></a>
+                    <div class="projetoSlideTexto">
+                        <span>Short Link API</span>
+                        <p>tecnologias</p>
+                        <div class="projetoSlideIcon">
+                            <i class="fa-brands fa-html5"></i>
+
+                            <i class="fa-brands fa-css3-alt"></i>
+
+                            <i class="fa-brands fa-js"></i>
+
+                        </div>
+                </div>
+                </div>
+
+                <div class="projetoSlide" data-jobs="1">
+                    <a href="https://imperialcarteiracustomizada.netlify.app/"><img src="./img/projeto5.png"></a>
+                    <div class="projetoSlideTexto">
+                        <span>Imperial Cartão</span>
+                        <p>tecnologias</p>
+                        <div class="projetoSlideIcon">
+                            <i class="fa-brands fa-html5"></i>
+
+                            <i class="fa-brands fa-css3-alt"></i>
+
+                            <i class="fa-brands fa-js"></i>
+
+                            <i class="fa-brands fa-react"></i>
+
+                            <i class="fa-brands fa-sass"></i>
+
+                        </div>
+                </div>
+                </div>
+
+                <div class="projetoSlide" data-jobs="1">
+                    <a href="https://inspiring-wiles-c1bfa5.netlify.app/"><img src="./img/projeto7.png"></a>
+                    <div class="projetoSlideTexto">
+                        <span>Interactive Pricing</span>
+                        <p>tecnologias</p>
+                        <div class="projetoSlideIcon">
+                            <i class="fa-brands fa-html5"></i>
+
+                            <i class="fa-brands fa-css3-alt"></i>
+
+                            <i class="fa-brands fa-js"></i>
+
+                        </div>
+                </div>
+                </div>
+
+                <div class="projetoSlide hiden" data-jobs="2">
+                    <a href="https://www.syntzcriativa.com/"><img src="./img/projeto3.png"></a>
+                    <div class="projetoSlideTexto">
+                        <span>Syntz Criativa</span>
+                        <p>Tecnologia</p>
+                        <div class="projetoSlideIcon">
+
+                            <i class="fa-brands fa-html5"></i>
+
+                            <i class="fa-brands fa-css3-alt"></i>
+
+                            <i class="fa-brands fa-js"></i>
+
+                            <i class="fa-brands fa-sass"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <div class="footerCont">
             <div>
-                <img src="img/LOGO.png">
+                <img src="./img/LOGO.png" alt="footer-logo">
                 <span>Copyright (c) 2021 Caio Paulino</span>
             </div>
-            <div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contatos</a></li>
+                </ul>
+            </nav>
+            <div class="footerIcons">
                 <a href="https://github.com/CaioPaulin0"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/caiopaulin0/"><i class="fab fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/caiopaulin0/"><i class="fab fa-instagram-square"></i></a>
                 <a href="mailto:caiopaulinoPE@hotmail.com"><i class="fas fa-envelope-square"></i></a>
-            </div>
+              </div>
         </div>
     </footer>
-
     
-    <script src="index.js"></script>
+    <script src="./js/index.js" defer></script>
 </body>
 </html>
