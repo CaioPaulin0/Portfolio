@@ -510,8 +510,7 @@ main {
 
 .habilidades {
   width: 100%;
-  padding: 40px 0;
-  height: max-content;
+  height: 440px;
   background-color: #011b4f;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -563,7 +562,7 @@ main {
 
 .habilidades .habilidadesTextos {
   max-width: 600px;
-  height: max-content;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
