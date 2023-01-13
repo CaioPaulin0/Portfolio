@@ -1,0 +1,36 @@
+[
+    {
+        "tipo" : "profissional",
+        "foto": "https://i.ibb.co/LkMnTM2/projeto3.png",
+        "gif": "https://media.tenor.com/bpKqgKcT08AAAAAC/cidade-saopaulo.gif",
+        "nome": "projeto-1",
+        "midia": {
+            "github" : "",
+            "link" : ""
+        },
+        "descricao": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quo ipsa omnis eius, quisquam aperiam. Non, reiciendis et debitis quis culpa ab sunt nam iste, doloremque voluptas velit laboriosam qui?",
+        "tecologias": [
+            {
+                "name": "html",
+                "logo": "<i class=\"fa-brands fa-html5\"></i>"
+            }
+        ]
+    },
+    {
+        "tipo" : "pessoal",
+        "foto": "https://uploaddeimagens.com.br/images/004/297/073/full/23.png?1673558216",
+        "gif": "https://media.tenor.com/bpKqgKcT08AAAAAC/cidade-saopaulo.gif",
+        "nome": "projeto-1",
+        "midia": {
+            "github" : "",
+            "link" : ""
+        },
+        "descricao": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quo ipsa omnis eius, quisquam aperiam. Non, reiciendis et debitis quis culpa ab sunt nam iste, doloremque voluptas velit laboriosam qui?",
+        "tecologias": [
+            {
+                "name": "html",
+                "logo": "<i class=\"fa-brands fa-html5\"></i>"
+            }
+        ]
+    }
+]
