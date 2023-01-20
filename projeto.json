@@ -1,35 +1,244 @@
 [
     {
-        "tipo" : "profissional",
-        "foto": "https://i.ibb.co/LkMnTM2/projeto3.png",
-        "gif": "https://media.tenor.com/bpKqgKcT08AAAAAC/cidade-saopaulo.gif",
-        "nome": "projeto-1",
-        "midia": {
-            "github" : "",
-            "link" : ""
+        "tipo" : "pessoal",
+        "foto": "https://i.ibb.co/YWPq0S2/projeto5.png",
+        "gif": "https://media1.giphy.com/media/R1pAKSpIUC6k0PSWuB/giphy.gif?cid=790b76118cdbde7bdda6f1013bc85bede5774424d280fd3c&rid=giphy.gif&ct=g",
+        "nome": "Carteirinha Imperial",
+        "midia": [
+        {
+            "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
+            "link" : "https://imperialcarteiracustomizada.netlify.app/"
         },
-        "descricao": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quo ipsa omnis eius, quisquam aperiam. Non, reiciendis et debitis quis culpa ab sunt nam iste, doloremque voluptas velit laboriosam qui?",
-        "tecologias": [
+        {
+            "icon" : "<i class=\"fa-brands fa-github\"></i>",
+            "link" : ""
+        }
+    ],
+        "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
+        "tecnologias": [
             {
-                "name": "html",
                 "logo": "<i class=\"fa-brands fa-html5\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-js\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-react\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-sass\"></i>"
             }
         ]
     },
     {
         "tipo" : "pessoal",
-        "foto": "https://uploaddeimagens.com.br/images/004/297/073/full/23.png?1673558216",
+        "foto": "https://i.ibb.co/kK1P6J7/projeto2.png",
         "gif": "https://media.tenor.com/bpKqgKcT08AAAAAC/cidade-saopaulo.gif",
-        "nome": "projeto-1",
-        "midia": {
-            "github" : "",
-            "link" : ""
+        "nome": "Doggos Pet",
+        "midia": [
+        {
+            "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
+            "link" : "https://caiopaulin0.github.io/Doggos/"
         },
-        "descricao": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quo ipsa omnis eius, quisquam aperiam. Non, reiciendis et debitis quis culpa ab sunt nam iste, doloremque voluptas velit laboriosam qui?",
-        "tecologias": [
+        {
+            "icon" : "<i class=\"fa-brands fa-github\"></i>",
+            "link" : ""
+        }
+    ],
+        "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
+        "tecnologias": [
             {
-                "name": "html",
-                "logo": "<i class=\"fa-brands fa-html5\"></i>"
+                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+            {
+                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-js\"></i>"
+            }
+        ]
+    },
+    {
+        "tipo" : "pessoal",
+        "foto": "https://i.ibb.co/3cy1fY6/projeto4.png",
+        "gif": "https://media.tenor.com/bpKqgKcT08AAAAAC/cidade-saopaulo.gif",
+        "nome": "Ecommerce Page",
+        "midia": [
+        {
+            "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
+            "link" : "https://caiopaulin0.github.io/ecommerce-product-page-main/"
+        },
+        {
+            "icon" : "<i class=\"fa-brands fa-github\"></i>",
+            "link" : "https://github.com/CaioPaulin0/ecommerce-product-page-main"
+        }
+    ],
+        "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
+        "tecnologias": [
+            {
+                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+            {
+                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-js\"></i>"
+            }
+        ]
+    },
+    {
+        "tipo" : "profissional",
+        "foto": "https://i.ibb.co/LkMnTM2/projeto3.png",
+        "gif": "https://media.tenor.com/bpKqgKcT08AAAAAC/cidade-saopaulo.gif",
+        "nome": "Syntz Criativa",
+        "midia": [
+        
+    ],
+        "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
+        "tecnologias": [
+            {
+                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+            {
+                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-js\"></i>"
+            },{
+                "logo": "<i class=\"fa-brands fa-sass\"></i>"
+            }
+        ]
+    },
+    {
+        "tipo" : "profissional",
+        "foto": "https://i.ibb.co/RgwDwL3/projeto10.png",
+        "gif": "https://media.tenor.com/bpKqgKcT08AAAAAC/cidade-saopaulo.gif",
+        "nome": "Lilika Rações",
+        "midia": [
+        
+    ],
+        "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
+        "tecnologias": [
+            {
+                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+            {
+                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-js\"></i>"
+            }
+        ]
+    },
+    {
+        "tipo" : "pessoal",
+        "foto": "https://caiopaulin0.github.io/Portfolio/img/projeto8.png",
+        "gif": "https://media.tenor.com/bpKqgKcT08AAAAAC/cidade-saopaulo.gif",
+        "nome": "REST Countries API",
+        "midia": [
+            {
+                "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
+                "link" : "https://roaring-salmiakki-25968e.netlify.app/"
+            },{
+                "icon" : "<i class=\"fa-brands fa-github\"></i>",
+                "link" : "https://github.com/CaioPaulin0/url-shortening-api-master"
+            }
+        ],
+        "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
+        "tecnologias": [
+            {
+                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+            {
+                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-js\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-react\"></i>"
+            }
+        ]
+    },
+    {
+        "tipo" : "pessoal",
+        "foto": "https://i.ibb.co/FbnnkXP/projeto6.png",
+        "gif": "https://media.tenor.com/bpKqgKcT08AAAAAC/cidade-saopaulo.gif",
+        "nome": "Short Link API",
+        "midia": [
+            {
+                "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
+                "link" : "https://jovial-bartik-36f87f.netlify.app/"
+            },{
+                "icon" : "<i class=\"fa-brands fa-github\"></i>",
+                "link" : "https://github.com/CaioPaulin0/url-shortening-api-master"
+            }
+        ],
+        "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
+        "tecnologias": [
+            {
+                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+            {
+                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-js\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-react\"></i>"
+            }
+        ]
+    },
+    {
+        "tipo" : "pessoal",
+        "foto": "https://i.ibb.co/NjSrvs0/projeto7.png",
+        "gif": "https://media.tenor.com/bpKqgKcT08AAAAAC/cidade-saopaulo.gif",
+        "nome": "Interactive Pricing",
+        "midia": [
+            {
+                "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
+                "link" : "https://inspiring-wiles-c1bfa5.netlify.app/"
+            },{
+                "icon" : "<i class=\"fa-brands fa-github\"></i>",
+                "link" : "https://github.com/CaioPaulin0/FrontEndMentor-interactive-pricing-component-main"
+            }
+        ],
+        "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
+        "tecnologias": [
+            {
+                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+            {
+                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-js\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-react\"></i>"
+            }
+        ]
+    },
+    {
+        "tipo" : "pessoal",
+        "foto": "https://i.ibb.co/jyRfCsd/ada.png",
+        "gif": "https://media.tenor.com/bpKqgKcT08AAAAAC/cidade-saopaulo.gif",
+        "nome": "Rock, Paper, Scissors game",
+        "midia": [
+            {
+                "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
+                "link" : "https://chipper-macaron-26157a.netlify.app/"
+            },{
+                "icon" : "<i class=\"fa-brands fa-github\"></i>",
+                "link" : "https://github.com/CaioPaulin0/rock-paper-scissors-master/tree/main/rock-paper-scissors-master"
+            }
+        ],
+        "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
+        "tecnologias": [
+            {
+                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+            {
+                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+            },
+            {
+                "logo": "<i class=\"fa-brands fa-js\"></i>"
             }
         ]
     }

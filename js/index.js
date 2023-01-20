@@ -1,6 +1,12 @@
-
 import data from "../projeto.json" assert {type: "json"}
 
+const obj = async () => {
+    const json = await data
+
+    return json
+}
+
+obj()
 
 
 const toggle = document.getElementById('toggle')
@@ -10,6 +16,8 @@ toggle.addEventListener('click', () => {
 
     div.classList.toggle('active')
 })
+
+// json
 
 function projeto(data){
         const div = document.createElement('div')   
@@ -28,11 +36,10 @@ function projeto(data){
         div.classList.add('projeto')
         
        img.setAttribute('src', data.gif)
+       img.classList.add('gif')
 
         const infoDiv = document.createElement('div')
-
-
-        
+    
         infoDiv.classList.add('projetoCont')
         infoDiv.innerHTML = 
         `<div class="infProjeto">
@@ -41,11 +48,15 @@ function projeto(data){
         <img src= ${data.foto} >
         <p> ${data.nome} </p>
 
-        <div class="tecProjeto">
+        <div class="midiaProjeto">
         <ul>
             ${data.midia.map((data) => {
-                return `<li>${data.icon}</li>`
-            })}
+                return `<li>
+                <a href= ${data.link}>
+                ${data.icon}
+                </a>
+                </li>`
+            }).join('')}
             </ul>
         </div>
 
@@ -62,23 +73,24 @@ function projeto(data){
         <div class="tecProjeto">
             <span> Tecnologias </span>
             <div>
-            <ul id="tec">
+            <ul>
 
             ${data.tecnologias.map((data) => {
-                return  data.logo
-            })}
+                return `<li>${data.logo}</li>`
+                
+            }).join('')}
             
             </ul>
             </div>
+
+            
         </div>
         `
+        
         div.appendChild(fechar)
         div.appendChild(img)
         div.appendChild(infoDiv)
 
-        const tec = document.querySelector('#tec')
-
-        console.log(tec)
         return div
 }
 
@@ -86,6 +98,7 @@ function divProjeto(data,jobs){
     const div = document.createElement('div')
 
     div.classList.add('projetoSlide')
+
     div.setAttribute('data-jobs', jobs)
 
     const img = document.createElement('img')
@@ -101,7 +114,7 @@ function divProjeto(data,jobs){
     div.appendChild(img)
     div.appendChild(divNome)
 
-    div.addEventListener('click', () => {
+    div.addEventListener('click', async () => {
 
         const main = document.querySelector('main')
         const header = document.querySelector('header')
@@ -111,26 +124,16 @@ function divProjeto(data,jobs){
         main.style.display = "none"
         header.style.display = "none"
         footer.style.display = "none"
-        body.appendChild(projeto(data))
+        await body.appendChild(projeto(data))
 
         return 
     })
+
+
     return div
 }
 
-function listaProjetos(){
-
-    const projetosDiv = document.querySelector('.projetosAll')
-
-     data.map((data) => {
-        if(data.tipo === "profissional"){
-            projetosDiv.appendChild(divProjeto(data,"2"))
-            
-        }
-    })
-}
-
-listaProjetos()
+// fim json
 
 function backAmenu(){
     const headerCont = document.querySelector('.headerCont')
@@ -145,22 +148,48 @@ function backAmenu(){
 
 backAmenu()
 
+
+async function listaProjetos(){
+
+    let jsonObj = await obj()
+
+    const projetosDiv = document.querySelector('.projetosAll')
+    
+        jsonObj.map((data) => {
+            if(data.tipo === "profissional"){
+                projetosDiv.append(divProjeto(data,"2"))
+            }
+            })
+
+        jsonObj.map((data) => {
+                if(data.tipo === "pessoal"){
+                    projetosDiv.appendChild(divProjeto(data,"1"))
+                }
+            })
+
+            const array = document.querySelectorAll(`[data-jobs="2"]`)
+            let divs = [...array]
+            divs.map(cont => cont.classList.add('hiden'))
+}
+
+listaProjetos()
+
 function remove(){
     const array = document.querySelectorAll('[data-jobs]')
-
+    
     array.forEach(cont => {
-         cont.classList.add('hiden')
-         cont.classList.add('aniimg')
-
+        cont.classList.add('hiden')
+        cont.classList.add('aniimg')
+        
     }
     )
 }
 
 function  show(valor){
     const array = document.querySelectorAll(`[data-jobs="${valor}"]`)
-
+    
     array.forEach(cont => cont.classList.remove('hiden'))
-
+    
 }
 
 const btnButton = document.querySelectorAll('[data-button]')
