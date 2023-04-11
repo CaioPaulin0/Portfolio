@@ -1,0 +1,23 @@
+home - mostrando
+
+sobre mim -  coisa rapida
+
+habilidades
+
+projetos
+(ter 3 projetos em destaques)
+
+e ter uma parte com outros projetos
+(maximo 3 projetos por slide)
+
+ao clickar
+
+ele vai mostrar uma pequena descrição do projeto
+
+aonde vai conter
+
+1-link do projeto
+2-link do repositorio
+3-link do linkedin
+
+

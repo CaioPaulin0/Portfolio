@@ -1,179 +1,52 @@
-import data from "../projeto.json" assert {type: "json"}
+import { header, backAmenu } from "./header.js"
+import { aniWindow } from "./aniWindow.js"
 
-const obj = async () => {
-    const json = await data
+// projetos
+import { pess } from "./projeto/pessoal.js"
+import { prof } from "./projeto/profissional.js"
+const proT = document.querySelector('#projetoT')
+const proD = document.querySelector('#projetoD')
 
-    return json
-}
-
-obj()
-
-
-const toggle = document.getElementById('toggle')
-const div = document.querySelector('.headerCont')
-
-toggle.addEventListener('click', () => {
-
-    div.classList.toggle('active')
+pess().then((e) => {
+    proT.appendChild(e)
 })
 
-// json
+prof().then((e) => {
+    console.log(e)
+    proD.appendChild(e)
+})
 
-function projeto(data){
-        const div = document.createElement('div')   
-        const img = document.createElement('img')
-        const fechar = document.createElement('p')
-        fechar.innerHTML = "X"
-        fechar.classList.add("fechar")
-
-        fechar.addEventListener('click', () => {
-            document.querySelector('main').style.display = "block"
-            document.querySelector('header').style.display = "flex"
-            document.querySelector('footer').style.display = "flex"
-
-            document.querySelector('body').removeChild(document.querySelector('.projeto'))
-        })
-        div.classList.add('projeto')
-        
-       img.setAttribute('src', data.gif)
-       img.classList.add('gif')
-
-        const infoDiv = document.createElement('div')
-    
-        infoDiv.classList.add('projetoCont')
-        infoDiv.innerHTML = 
-        `<div class="infProjeto">
-
-
-        <img src= ${data.foto} >
-        <p> ${data.nome} </p>
-
-        <div class="midiaProjeto">
-        <ul>
-            ${data.midia.map((data) => {
-                return `<li>
-                <a href= ${data.link}>
-                ${data.icon}
-                </a>
-                </li>`
-            }).join('')}
-            </ul>
-        </div>
-
-        </div>
-        
-        <div class="descProjeto">
-          <span> Descrição </span>
-
-          <p>
-                ${data.descricao}
-          </p>
-        </div>
-
-        <div class="tecProjeto">
-            <span> Tecnologias </span>
-            <div>
-            <ul>
-
-            ${data.tecnologias.map((data) => {
-                return `<li>${data.logo}</li>`
-                
-            }).join('')}
-            
-            </ul>
-            </div>
-
-            
-        </div>
-        `
-        
-        div.appendChild(fechar)
-        div.appendChild(img)
-        div.appendChild(infoDiv)
-
-        return div
-}
-
-function divProjeto(data,jobs){
-    const div = document.createElement('div')
-
-    div.classList.add('projetoSlide')
-
-    div.setAttribute('data-jobs', jobs)
-
-    const img = document.createElement('img')
-    img.setAttribute("src", data.foto)
-
-    const divNome = document.createElement('div')
-    divNome.classList.add('textoProjeto')
-    const p = document.createElement('p')
-    p.innerHTML = data.nome
-
-    divNome.appendChild(p)
-
-    div.appendChild(img)
-    div.appendChild(divNome)
-
-    div.addEventListener('click', async () => {
-
-        const main = document.querySelector('main')
-        const header = document.querySelector('header')
-        const footer = document.querySelector('footer')
-        const body = document.querySelector('body')
-        
-        main.style.display = "none"
-        header.style.display = "none"
-        footer.style.display = "none"
-        await body.appendChild(projeto(data))
-
-        return 
-    })
-
-
-    return div
-}
-
-// fim json
-
-function backAmenu(){
-    const headerCont = document.querySelector('.headerCont')
-    const a = headerCont.querySelectorAll('a')
-
-    for(let i = 0; i < a.length; i++){
-        a[i].addEventListener('click', () => {
-            headerCont.classList.remove('active')
-        })
-    }
-}
-
+// header
+header()
 backAmenu()
 
+function footerProjeto(arr1,arr2){
+    const footerProjeto = document.createElement('div')
+    footerProjeto.classList.add("footerProjeto")
 
-async function listaProjetos(){
+    const pro = document.createElement('div')
+    pro.appendChild(seta(arr1))
+    pro.appendChild(arrayProjeto(arr1))
 
-    let jsonObj = await obj()
+    const pre = document.createElement('div')
+    pre.appendChild(seta(arr2))
+    pre.appendChild(arrayProjeto(arr2))
 
-    const projetosDiv = document.querySelector('.projetosAll')
-    
-        jsonObj.map((data) => {
-            if(data.tipo === "profissional"){
-                projetosDiv.append(divProjeto(data,"2"))
-            }
-            })
+    footerProjeto.appendChild(pro)
+    footerProjeto.appendChild(pre)
+    // contador de array dividito
 
-        jsonObj.map((data) => {
-                if(data.tipo === "pessoal"){
-                    projetosDiv.appendChild(divProjeto(data,"1"))
-                }
-            })
-
-            const array = document.querySelectorAll(`[data-jobs="2"]`)
-            let divs = [...array]
-            divs.map(cont => cont.classList.add('hiden'))
+   return projetosDiv.appendChild(footerProjeto)
 }
 
-listaProjetos()
+function showw(arr,i){
+    arr[i - 1].map((e) => {
+        e.classList.add('hiden')
+    })
+}
 
+// forma de mostrar pela prof
+// feito
 function remove(){
     const array = document.querySelectorAll('[data-jobs]')
     
@@ -185,43 +58,18 @@ function remove(){
     )
 }
 
-function  show(valor){
-    const array = document.querySelectorAll(`[data-jobs="${valor}"]`)
-    
-    array.forEach(cont => cont.classList.remove('hiden'))
-    
-}
 
-const btnButton = document.querySelectorAll('[data-button]')
+const separar = (itens, maximo) => {
+    return itens.reduce((acumulador, item, indice) => {
+      const grupo = Math.floor(indice / maximo);
+      acumulador[grupo] = [...(acumulador[grupo] || []), item];
+      return acumulador;
+    }, []);
+  };
 
-for(let i = 0; i < btnButton.length; i++){
-    btnButton[i].addEventListener('click', () => {
-        if(i === 0){
-            remove()
-            show('1')
-        }
-        if(i === 1){
-            remove()
-            show('2')
-        }
-    })
-}
+// fim
 
-
-function  aniWindow(){
-    const arrayW = document.querySelectorAll('[data-window]')
-
-    const windowTop = window.pageYOffset + window.innerHeight * 0.8
-
-    arrayW.forEach(element => {
-        if(windowTop > element.offsetTop){
-            element.classList.remove('hiden')
-            element.classList.add('animacao');          
-        } 
-    })
-}
-
+// feito
 window.addEventListener('scroll', () =>{
     aniWindow()
 })
-    
