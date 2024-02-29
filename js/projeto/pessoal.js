@@ -69,7 +69,7 @@ function seta(json){
     }
 
     let value = 0
-    ad[value].style.color = "#5C73BF"
+    ad[value].style.color = "#39A0ED"
     const es = document.createElement('p')
     es.innerHTML = `<i class="fa-solid fa-arrow-left"></i>`
     es.addEventListener('click', () => {
@@ -87,7 +87,7 @@ function seta(json){
              })
             }
             ad[value + 1].style.color = "#0F1528"
-            ad[value].style.color = "#5C73BF"
+            ad[value].style.color = "#39A0ED"
     })
 
     const di = document.createElement('p')
@@ -107,7 +107,7 @@ function seta(json){
             })
         }
         ad[value - 1].style.color = "#0F1528"
-        ad[value].style.color = "#5C73BF"
+        ad[value].style.color = "#39A0ED"
     })
 
     const setasDiv = document.createElement('div')

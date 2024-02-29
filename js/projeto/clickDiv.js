@@ -23,13 +23,34 @@ function links(data){
         }else{
          const a = document.createElement('a')
              a.href = arrayData[0].link
-             a.innerHTML = "Acessar o projeto"
+             a.innerHTML = "Acessar o repositório"
              divLinks.appendChild(a)
         }
         
         return divLinks
     }
 
+}
+
+function tec(data){
+    const div = document.createElement('div')
+    const p = document.createElement('p')
+    p.innerHTML = "Tecnologias"
+    div.appendChild(p)
+    div.className = "tecCont"
+
+    const iconDiv = document.createElement('div')
+    iconDiv.className = "iconDiv"
+
+    data.tecnologias.map((e) => {
+        let i = document.createElement('i')
+        i.className = e.logo
+        iconDiv.append(i)
+    })
+
+    div.appendChild(iconDiv)
+
+    return div
 }
 
 export function clickDiv(data){
@@ -58,13 +79,18 @@ export function clickDiv(data){
     p.innerHTML = data.descricao
     divTexto.appendChild(p)
 
+    const tecDiv = document.createElement('div')
+    tecDiv.className = "tecCont"
+
+    divTexto.appendChild(tec(data))
+
     const divImg = document.createElement('div')
     divImg.className = "midiaCont"
     const img = document.createElement('img')
     img.src = data.foto
+    divTexto.append(links(data))
 
     divImg.appendChild(img)
-    divImg.append(links(data))
     
     divCont.appendChild(divImg)
     divCont.appendChild(divTexto)

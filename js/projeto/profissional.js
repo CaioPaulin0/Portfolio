@@ -11,7 +11,6 @@ const separar = (itens, maximo) => {
 export async function prof(){
 
     let prof = []
-    console.log(data)
     prof.push(data[0])
     prof.push(data[3])
     prof.push(data[4])

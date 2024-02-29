@@ -6,30 +6,28 @@
         "nome": "Carteirinha Imperial",
         "midia": [
         {
-            "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
             "link" : "https://imperialcarteiracustomizada.netlify.app/"
         },
         {
-            "icon" : "<i class=\"fa-brands fa-github\"></i>",
             "link" : ""
         }
     ],
         "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
         "tecnologias": [
             {
-                "logo": "<i class=\"fa-brands fa-html5\"></i>"
+                "logo": "fa-brands fa-html5"
             },
             {
-                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+                "logo": "fa-brands fa-css3-alt"
             },
             {
-                "logo": "<i class=\"fa-brands fa-js\"></i>"
+                "logo": "fa-brands fa-js"
             },
             {
-                "logo": "<i class=\"fa-brands fa-react\"></i>"
+                "logo": "fa-brands fa-react"
             },
             {
-                "logo": "<i class=\"fa-brands fa-sass\"></i>"
+                "logo": "fa-brands fa-sass"
             }
         ]
     },
@@ -40,23 +38,21 @@
         "nome": "Doggos Pet",
         "midia": [
         {
-            "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
             "link" : "https://caiopaulin0.github.io/Doggos/"
         },
         {
-            "icon" : "<i class=\"fa-brands fa-github\"></i>",
             "link" : ""
         }
     ],
         "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
         "tecnologias": [
             {
-                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+                "logo": "fa-brands fa-html5"},
             {
-                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+                "logo": "fa-brands fa-css3-alt"
             },
             {
-                "logo": "<i class=\"fa-brands fa-js\"></i>"
+                "logo": "fa-brands fa-js"
             }
         ]
     },
@@ -67,23 +63,21 @@
         "nome": "Ecommerce Page",
         "midia": [
         {
-            "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
             "link" : "https://caiopaulin0.github.io/ecommerce-product-page-main/"
         },
         {
-            "icon" : "<i class=\"fa-brands fa-github\"></i>",
             "link" : "https://github.com/CaioPaulin0/ecommerce-product-page-main"
         }
     ],
         "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
         "tecnologias": [
             {
-                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+                "logo": "fa-brands fa-html5"},
             {
-                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+                "logo": "fa-brands fa-css3-alt"
             },
             {
-                "logo": "<i class=\"fa-brands fa-js\"></i>"
+                "logo": "fa-brands fa-js"
             }
         ]
     },
@@ -98,14 +92,14 @@
         "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
         "tecnologias": [
             {
-                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+                "logo": "fa-brands fa-html5"},
             {
-                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+                "logo": "fa-brands fa-css3-alt"
             },
             {
-                "logo": "<i class=\"fa-brands fa-js\"></i>"
+                "logo": "fa-brands fa-js"
             },{
-                "logo": "<i class=\"fa-brands fa-sass\"></i>"
+                "logo": "fa-brands fa-sass"
             }
         ]
     },
@@ -120,12 +114,12 @@
         "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
         "tecnologias": [
             {
-                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+                "logo": "fa-brands fa-html5"},
             {
-                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+                "logo": "fa-brands fa-css3-alt"
             },
             {
-                "logo": "<i class=\"fa-brands fa-js\"></i>"
+                "logo": "fa-brands fa-js"
             }
         ]
     },
@@ -136,25 +130,23 @@
         "nome": "REST Countries API",
         "midia": [
             {
-                "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
                 "link" : "https://roaring-salmiakki-25968e.netlify.app/"
             },{
-                "icon" : "<i class=\"fa-brands fa-github\"></i>",
                 "link" : "https://github.com/CaioPaulin0/url-shortening-api-master"
             }
         ],
         "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
         "tecnologias": [
             {
-                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+                "logo": "fa-brands fa-html5"},
             {
-                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+                "logo": "fa-brands fa-css3-alt"
             },
             {
-                "logo": "<i class=\"fa-brands fa-js\"></i>"
+                "logo": "fa-brands fa-js"
             },
             {
-                "logo": "<i class=\"fa-brands fa-react\"></i>"
+                "logo": "fa-brands fa-react"
             }
         ]
     },
@@ -165,25 +157,23 @@
         "nome": "Short Link API",
         "midia": [
             {
-                "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
                 "link" : "https://jovial-bartik-36f87f.netlify.app/"
             },{
-                "icon" : "<i class=\"fa-brands fa-github\"></i>",
                 "link" : "https://github.com/CaioPaulin0/url-shortening-api-master"
             }
         ],
         "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
         "tecnologias": [
             {
-                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+                "logo": "fa-brands fa-html5"},
             {
-                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+                "logo": "fa-brands fa-css3-alt"
             },
             {
-                "logo": "<i class=\"fa-brands fa-js\"></i>"
+                "logo": "fa-brands fa-js"
             },
             {
-                "logo": "<i class=\"fa-brands fa-react\"></i>"
+                "logo": "fa-brands fa-react"
             }
         ]
     },
@@ -194,25 +184,23 @@
         "nome": "Interactive Pricing",
         "midia": [
             {
-                "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
                 "link" : "https://inspiring-wiles-c1bfa5.netlify.app/"
             },{
-                "icon" : "<i class=\"fa-brands fa-github\"></i>",
                 "link" : "https://github.com/CaioPaulin0/FrontEndMentor-interactive-pricing-component-main"
             }
         ],
         "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
         "tecnologias": [
             {
-                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+                "logo": "fa-brands fa-html5"},
             {
-                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+                "logo": "fa-brands fa-css3-alt"
             },
             {
-                "logo": "<i class=\"fa-brands fa-js\"></i>"
+                "logo": "fa-brands fa-js"
             },
             {
-                "logo": "<i class=\"fa-brands fa-react\"></i>"
+                "logo": "fa-brands fa-react"
             }
         ]
     },
@@ -223,22 +211,20 @@
         "nome": "Rock, Paper, Scissors game",
         "midia": [
             {
-                "icon" : "<i class=\"fa-solid fa-earth-americas\"></i>",
                 "link" : "https://chipper-macaron-26157a.netlify.app/"
             },{
-                "icon" : "<i class=\"fa-brands fa-github\"></i>",
                 "link" : "https://github.com/CaioPaulin0/rock-paper-scissors-master/tree/main/rock-paper-scissors-master"
             }
         ],
         "descricao": "Site feito para customizações de carteira da torcia imperial, aonde poderar ser feito a troca da cor e tem opção 4 tipos de opção de logo.",
         "tecnologias": [
             {
-                "logo": "<i class=\"fa-brands fa-html5\"></i>"},
+                "logo": "fa-brands fa-html5"},
             {
-                "logo": "<i class=\"fa-brands fa-css3-alt\"></i>"
+                "logo": "fa-brands fa-css3-alt"
             },
             {
-                "logo": "<i class=\"fa-brands fa-js\"></i>"
+                "logo": "fa-brands fa-js"
             }
         ]
     }

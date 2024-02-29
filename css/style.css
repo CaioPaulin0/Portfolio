@@ -5,7 +5,7 @@
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: #152B73;
+  background-color: #050b1b;
 }
 
 header {
@@ -13,10 +13,9 @@ header {
   width: 100%;
   height: 80px;
   display: flex;
-  justify-content: right;
-  background-color: #2247BF;
+  background-color: #04174E;
   background-image: url("../img/LOGO.png");
-  background-position: 10px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 80px;
   box-shadow: 0 0 1.1em #000000;
@@ -30,7 +29,7 @@ header svg {
 header a {
   text-decoration: none;
   font-size: 3rem;
-  color: #f7f7f7;
+  color: #FFFFFF;
   margin-bottom: 15px;
 }
 
@@ -91,7 +90,7 @@ main {
   display: flex;
   margin: auto;
   padding: 160px 0;
-  background-image: url("../img/bg.png");
+  background-image: url("../img/bg-1.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -102,7 +101,8 @@ main {
   }
 }
 .home .homeCont {
-  width: 1100px;
+  max-width: 1300px;
+  width: 100%;
   height: -moz-max-content;
   height: max-content;
   margin: auto;
@@ -115,8 +115,8 @@ main {
   max-width: 900px;
   height: -moz-max-content;
   height: max-content;
-  font-size: 3rem;
-  color: #f7f7f7;
+  font-size: 2rem;
+  color: #FFFFFF;
 }
 @media (max-width: 730px) {
   .home .homeCont h1 {
@@ -125,6 +125,7 @@ main {
 }
 .home .homeCont h1 span {
   font-size: 7.375rem;
+  color: #39A0ED;
 }
 @media (max-width: 730px) {
   .home .homeCont h1 span {
@@ -137,7 +138,7 @@ main {
   animation: imgani 5s ease-in-out infinite;
   filter: drop-shadow(0 20px 1em rgba(0, 0, 0, 0.6588235294));
   align-self: flex-start;
-  margin: 0 auto;
+  margin: auto 0;
 }
 @media (max-width: 730px) {
   .home .homeCont img {
@@ -145,17 +146,17 @@ main {
   }
 }
 .home .homeCont div:first-child {
-  margin: auto;
+  margin: auto 0;
 }
 .home .homeMidia {
-  max-width: 300px;
+  max-width: 120px;
   display: flex;
   justify-content: space-between;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 20px;
 }
 .home .homeMidia a {
-  color: #f7f7f7;
+  color: #FFFFFF;
 }
 
 @keyframes logoani {
@@ -187,12 +188,10 @@ main {
   height: -moz-max-content;
   height: max-content;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 120px 0;
   margin: auto;
-}
-.sobreCont img {
-  margin: 0 auto;
 }
 @media (max-width: 730px) {
   .sobreCont {
@@ -204,12 +203,11 @@ main {
   max-width: 630px;
   height: -moz-max-content;
   height: max-content;
-  color: #f7f7f7;
+  color: #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: end;
-  margin: 0 auto;
 }
 .sobreCont .textoF img {
   margin: 0 auto;
@@ -232,18 +230,19 @@ main {
   }
 }
 .sobreCont .textoF span::after {
-  width: 100px;
-  height: 4px;
+  width: 100%;
+  height: 1px;
   display: block;
   content: "";
-  background-color: #5C73BF;
+  background-color: #2247BF;
   margin-top: 5px;
 }
 .sobreCont .textoF p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   line-height: 30px;
-  text-align: start;
+  text-align: justify;
   margin-top: 35px;
+  color: #c6c6c6;
 }
 .sobreCont .textoF button {
   width: -moz-max-content;
@@ -261,11 +260,28 @@ main {
 }
 
 .habilidades {
+  max-width: 1300px;
   width: 100%;
   height: -moz-max-content;
   height: max-content;
   display: flex;
-  background-color: #0B1840;
+  justify-content: space-between;
+  margin: auto;
+}
+.habilidades .habiTexto {
+  max-width: 630px;
+  height: -moz-max-content;
+  height: max-content;
+  font-size: 1.1rem;
+  line-height: 30px;
+  text-align: end;
+  color: #c6c6c6;
+}
+.habilidades .habiTexto span {
+  font-size: 2.8rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 80px;
 }
 .habilidades .habiCont {
   max-width: 1300px;
@@ -273,14 +289,6 @@ main {
   height: max-content;
   display: flex;
   flex-direction: column;
-  padding: 80px 0;
-  margin: 0 auto;
-}
-.habilidades span {
-  font-size: 2.8rem;
-  color: #ffffff;
-  text-align: center;
-  margin-bottom: 80px;
 }
 .habilidades ul {
   max-width: 600px;
@@ -310,7 +318,7 @@ main {
 }
 .projetos strong {
   font-size: 2.5rem;
-  color: #f7f7f7;
+  color: #FFFFFF;
   margin: 0 auto;
 }
 .projetos .projetosCont {
@@ -330,7 +338,7 @@ main {
 }
 .projetos .projetosCont .projetosInfo span {
   font-size: 1.665rem;
-  color: #f7f7f7;
+  color: #FFFFFF;
   margin: auto;
 }
 .projetos .projetosCont .projetosDiv {
@@ -344,9 +352,9 @@ main {
   width: -moz-max-content;
   width: max-content;
   font-size: 25px;
-  color: #f7f7f7;
+  color: #FFFFFF;
   padding-bottom: 10px;
-  border-bottom: 5px solid #03588C;
+  border-bottom: 1px solid #03588C;
   margin-bottom: 10px;
 }
 .projetos .projetosCont .todos {
@@ -372,7 +380,7 @@ main {
   font-size: 1.5rem;
   border: none;
   background-color: #2247BF;
-  color: #f7f7f7;
+  color: #FFFFFF;
   padding: 10px 25px;
   border-radius: 8px;
   cursor: pointer;
@@ -401,7 +409,7 @@ main {
 .projetoSlide {
   width: 400px;
   height: 234px;
-  background-color: #42538A;
+  background-color: #050B1B;
   border-radius: 8px;
   margin-right: 10px;
   cursor: pointer;
@@ -415,11 +423,10 @@ main {
 .projetoSlide .textoProjeto {
   width: 400px;
   height: 60px;
-  background-color: #0B1840;
-  opacity: 90%;
+  background-color: #2247BF;
+  opacity: 93%;
   position: absolute;
   transform: translateY(-62px);
-  border-radius: 0 0 8px 8px;
   display: flex;
 }
 .projetoSlide .textoProjeto p {
@@ -581,7 +588,7 @@ footer .footerCont img {
 }
 footer .footerCont span {
   font-size: 1.15rem;
-  color: #f7f7f7;
+  color: #FFFFFF;
 }
 footer .footerCont nav {
   width: -moz-max-content;
@@ -599,13 +606,13 @@ footer .footerCont ul {
 footer .footerCont ul a {
   text-decoration: none;
   font-size: 1.1rem;
-  color: #f7f7f7;
+  color: #FFFFFF;
 }
 footer .footerCont .footerIcons {
   width: 130px;
 }
 footer .footerCont .footerIcons i {
-  color: #f7f7f7;
+  color: #FFFFFF;
   font-size: 1.4rem;
 }
 footer .footerCont .footerIcons i:hover {
@@ -675,12 +682,12 @@ footer .footerCont .footerIcons i:hover {
 }
 
 .fechar {
-  width: 50px;
+  width: 30px;
   position: absolute;
-  right: 0;
-  background-color: rgba(21, 43, 115, 0.5803921569);
+  right: 12px;
+  background-color: #152b73;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
@@ -736,10 +743,10 @@ footer .footerCont .footerIcons i:hover {
 .seta i {
   cursor: pointer;
   font-size: 30px;
-  color: #070f27;
+  color: #39A0ED;
 }
 .seta i:hover {
-  color: #5C73BF;
+  color: #25699c;
 }
 
 .DivProjeto {
@@ -761,28 +768,31 @@ footer .footerCont .footerIcons i:hover {
 }
 .projetoClick .cont {
   width: 1200px;
-  height: -moz-max-content;
-  height: max-content;
-  background-color: #050A1B;
+  padding: 70px;
+  background-color: hsla(226, 69%, 6%, 0.925);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-radius: 8px;
   margin: auto;
-  padding: 30px;
 }
 .projetoClick .clickTexto {
   max-width: 600px;
   height: -moz-max-content;
   height: max-content;
-  color: #f7f7f7;
+  color: #FFFFFF;
   text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .projetoClick .clickTexto strong {
   font-size: 3.5rem;
+  color: #39A0ED;
 }
 .projetoClick .clickTexto p {
   font-size: 1.1rem;
-  margin-top: 20px;
+  line-height: 1.5rem;
 }
 .projetoClick .midiaCont {
   width: 500px;
@@ -796,13 +806,14 @@ footer .footerCont .footerIcons i:hover {
   height: auto;
 }
 .projetoClick .linkCont {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   height: -moz-max-content;
   height: max-content;
   box-sizing: border-box;
+  gap: 10px;
+  margin-top: 16px;
 }
 .projetoClick .linkCont a {
   text-decoration: none;
@@ -811,5 +822,28 @@ footer .footerCont .footerIcons i:hover {
   color: #ffffff;
   padding: 8px;
   border-radius: 4px;
-  margin: 5px 0;
+}
+.projetoClick .tecCont {
+  width: 250px;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 13px;
+}
+.projetoClick .tecCont p {
+  width: -moz-min-content;
+  width: min-content;
+  font-size: 1.8rem;
+}
+.projetoClick .iconDiv {
+  font-size: 1.75rem;
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+}
+.projetoClick .iconDiv i {
+  margin-right: 14px;
 }/*# sourceMappingURL=style.css.map */

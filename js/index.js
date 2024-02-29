@@ -12,7 +12,6 @@ pess().then((e) => {
 })
 
 prof().then((e) => {
-    console.log(e)
     proD.appendChild(e)
 })
 
