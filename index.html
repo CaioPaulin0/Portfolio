@@ -1,282 +1,311 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/820c67e293.js" crossorigin="anonymous"></script>
     <title>Portfólio| Caio Paulino - Front-end </title>
 </head>
 <body>
-    <header>
-        <svg id="toggle" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="40" height="40"
-viewBox="0 0 24 24"
-style=" fill:#ffffff;"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"></path></svg>
+    <header class="header">
         <div class="headerCont">
-          <nav>
-              <ul>
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#projetos">Projetos</a></li>
-                  <li><a href="#contato">Contato</a></li>
+            <img class="headerLogo" src="./img/50x.png" alt="logo-de-caio-paulino">
 
-                  <div>
-                    <a href="https://github.com/CaioPaulin0"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/caiopaulin0/"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/caiopaulin0/"><i class="fab fa-instagram-square"></i></a>
-                    <a href="mailto:caiopaulinoPE@hotmail.com"><i class="fas fa-envelope-square"></i></a>
-                  </div>
-              </ul>
-          </nav>
+            <div class="headerText">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </div>
+
+            <div class="headerIcon">
+                <a href="https://github.com/CaioPaulin0">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 16 16">
+                        <path d="M 7.5 1 C 3.910156 1 1 3.90625 1 7.488281 C 1 10.355469 2.863281 12.789063 5.445313 13.648438 C 5.769531 13.707031 6 13.375 6 13.125 C 6 12.972656 6.003906 12.789063 6 12.25 C 4.191406 12.640625 3.625 11.375 3.625 11.375 C 3.328125 10.625 2.96875 10.410156 2.96875 10.410156 C 2.378906 10.007813 3.011719 10.019531 3.011719 10.019531 C 3.664063 10.0625 4 10.625 4 10.625 C 4.5 11.5 5.628906 11.414063 6 11.25 C 6 10.851563 6.042969 10.5625 6.152344 10.378906 C 4.109375 10.019531 2.996094 8.839844 3 7.207031 C 3.003906 6.242188 3.335938 5.492188 3.875 4.9375 C 3.640625 4.640625 3.480469 3.625 3.960938 3 C 5.167969 3 5.886719 3.871094 5.886719 3.871094 C 5.886719 3.871094 6.453125 3.625 7.496094 3.625 C 8.542969 3.625 9.105469 3.859375 9.105469 3.859375 C 9.105469 3.859375 9.828125 3 11.035156 3 C 11.515625 3.625 11.355469 4.640625 11.167969 4.917969 C 11.683594 5.460938 12 6.210938 12 7.207031 C 12 8.839844 10.890625 10.019531 8.851563 10.375 C 8.980469 10.570313 9 10.84375 9 11.25 C 9 12.117188 9 12.910156 9 13.125 C 9 13.375 9.226563 13.710938 9.558594 13.648438 C 12.140625 12.785156 14 10.355469 14 7.488281 C 14 3.90625 11.089844 1 7.5 1 Z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/caiopaulin0/">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 16 16">
+                        <path d="M 2.757813 1 C 1.792969 1 1 1.792969 1 2.757813 L 1 12.246094 C 1 13.207031 1.792969 14 2.757813 14 L 12.246094 14 C 13.207031 14 14 13.207031 14 12.246094 L 14 2.757813 C 14 1.792969 13.207031 1 12.246094 1 Z M 2.757813 2 L 12.246094 2 C 12.667969 2 13 2.332031 13 2.757813 L 13 12.246094 C 13 12.667969 12.667969 13 12.246094 13 L 2.757813 13 C 2.332031 13 2 12.667969 2 12.246094 L 2 2.757813 C 2 2.332031 2.332031 2 2.757813 2 Z M 4 3 C 3.449219 3 3 3.449219 3 4 C 3 4.550781 3.449219 5 4 5 C 4.550781 5 5 4.550781 5 4 C 5 3.449219 4.550781 3 4 3 Z M 3 6 L 3 12 L 5 12 L 5 6 Z M 6 6 L 6 12 L 8 12 L 8 9.320313 C 8 8.488281 8.078125 7.742188 9.078125 7.742188 C 10.0625 7.742188 10 8.636719 10 9.375 L 10 12 L 12 12 L 12 9.039063 C 12 7.320313 11.640625 6 9.691406 6 C 8.753906 6 8.28125 6.375 8.023438 6.875 L 8 6.875 L 8 6 Z"></path>
+                    </svg>
+                </a>
+                <a href="mailto:caiopaulinoPE@hotmail.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 16 16">
+                        <path d="M 4 1 L 8 4.5 L 12 1 Z M 14.441406 2.34375 L 13.5 3 C 13.535156 3 13.5625 3.011719 13.59375 3.019531 L 8 6.890625 L 2.40625 3.019531 C 2.4375 3.011719 2.464844 3 2.5 3 L 1.546875 2.351563 C 1.214844 2.628906 1 3.035156 1 3.5 L 1 11.5 C 1 12.328125 1.671875 13 2.5 13 L 13.5 13 C 14.328125 13 15 12.328125 15 11.5 L 15 3.5 C 15 3.03125 14.78125 2.617188 14.441406 2.34375 Z M 3 5.773438 L 8 9.234375 L 13 5.773438 L 13 12 L 3 12 Z"></path>
+                    </svg>
+                </a>
+            </div>
+
+            
         </div>
     </header>
 
-    <main>
-        <section class="home" id="home">
-            <div class="homeCont">
-                <div>
-                    <h1>Ola, meu nome é
-                    </br>
-                       <span>Caio Paulino</span></br>
-                    Dev Front - End
-                    </h1>
-                    <div class="homeMidia">
-                        <a href="https://github.com/CaioPaulin0"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/caiopaulin0/"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/caiopaulin0/"><i class="fab fa-instagram-square"></i></a>
-                        <a href="mailto:caiopaulinoPE@hotmail.com"><i class="fas fa-envelope-square"></i></a>
+    <header class="mobile">
+        <div class="headerCont">
+            <div class="btnHeader">
+                <i class="fa-solid fa-bars" id="btnHeader"></i>
+
+                <div class="btnHeaderCont">
+                    <div class="headerText">
+                        <ul>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#projetos">Projetos</a></li>
+                        </ul>
+                    </div>
+                    <div class="headerIcon">
+                        <a href="https://github.com/CaioPaulin0">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 16 16">
+                                <path d="M 7.5 1 C 3.910156 1 1 3.90625 1 7.488281 C 1 10.355469 2.863281 12.789063 5.445313 13.648438 C 5.769531 13.707031 6 13.375 6 13.125 C 6 12.972656 6.003906 12.789063 6 12.25 C 4.191406 12.640625 3.625 11.375 3.625 11.375 C 3.328125 10.625 2.96875 10.410156 2.96875 10.410156 C 2.378906 10.007813 3.011719 10.019531 3.011719 10.019531 C 3.664063 10.0625 4 10.625 4 10.625 C 4.5 11.5 5.628906 11.414063 6 11.25 C 6 10.851563 6.042969 10.5625 6.152344 10.378906 C 4.109375 10.019531 2.996094 8.839844 3 7.207031 C 3.003906 6.242188 3.335938 5.492188 3.875 4.9375 C 3.640625 4.640625 3.480469 3.625 3.960938 3 C 5.167969 3 5.886719 3.871094 5.886719 3.871094 C 5.886719 3.871094 6.453125 3.625 7.496094 3.625 C 8.542969 3.625 9.105469 3.859375 9.105469 3.859375 C 9.105469 3.859375 9.828125 3 11.035156 3 C 11.515625 3.625 11.355469 4.640625 11.167969 4.917969 C 11.683594 5.460938 12 6.210938 12 7.207031 C 12 8.839844 10.890625 10.019531 8.851563 10.375 C 8.980469 10.570313 9 10.84375 9 11.25 C 9 12.117188 9 12.910156 9 13.125 C 9 13.375 9.226563 13.710938 9.558594 13.648438 C 12.140625 12.785156 14 10.355469 14 7.488281 C 14 3.90625 11.089844 1 7.5 1 Z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/caiopaulin0/">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 16 16">
+                                <path d="M 2.757813 1 C 1.792969 1 1 1.792969 1 2.757813 L 1 12.246094 C 1 13.207031 1.792969 14 2.757813 14 L 12.246094 14 C 13.207031 14 14 13.207031 14 12.246094 L 14 2.757813 C 14 1.792969 13.207031 1 12.246094 1 Z M 2.757813 2 L 12.246094 2 C 12.667969 2 13 2.332031 13 2.757813 L 13 12.246094 C 13 12.667969 12.667969 13 12.246094 13 L 2.757813 13 C 2.332031 13 2 12.667969 2 12.246094 L 2 2.757813 C 2 2.332031 2.332031 2 2.757813 2 Z M 4 3 C 3.449219 3 3 3.449219 3 4 C 3 4.550781 3.449219 5 4 5 C 4.550781 5 5 4.550781 5 4 C 5 3.449219 4.550781 3 4 3 Z M 3 6 L 3 12 L 5 12 L 5 6 Z M 6 6 L 6 12 L 8 12 L 8 9.320313 C 8 8.488281 8.078125 7.742188 9.078125 7.742188 C 10.0625 7.742188 10 8.636719 10 9.375 L 10 12 L 12 12 L 12 9.039063 C 12 7.320313 11.640625 6 9.691406 6 C 8.753906 6 8.28125 6.375 8.023438 6.875 L 8 6.875 L 8 6 Z"></path>
+                            </svg>
+                        </a>
+                        <a href="mailto:caiopaulinoPE@hotmail.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 16 16">
+                                <path d="M 4 1 L 8 4.5 L 12 1 Z M 14.441406 2.34375 L 13.5 3 C 13.535156 3 13.5625 3.011719 13.59375 3.019531 L 8 6.890625 L 2.40625 3.019531 C 2.4375 3.011719 2.464844 3 2.5 3 L 1.546875 2.351563 C 1.214844 2.628906 1 3.035156 1 3.5 L 1 11.5 C 1 12.328125 1.671875 13 2.5 13 L 13.5 13 C 14.328125 13 15 12.328125 15 11.5 L 15 3.5 C 15 3.03125 14.78125 2.617188 14.441406 2.34375 Z M 3 5.773438 L 8 9.234375 L 13 5.773438 L 13 12 L 3 12 Z"></path>
+                            </svg>
+                        </a>
                     </div>
                 </div>
+            </div>
+            <img src="./img/50x.png" alt="logo-header-mobile">
 
-                    <img src="./img/computer.png">
-            </div>
-        </section>
-        <section class="sobre" id="sobre">
-        <div class="sobreCont" data-window=>
-            <img src="./img/people.png">
-            <div class="textoF">
-                <span>Quem sou</span>
-                <p>Sou um apaixonado por tecnologia tanto hardware quanto em software também um estudioso na área de astronomia, comecei com front end em maio de 2021, atualmente estou a procura da minha primeira oportunidade de emprego na área.</p>
-            </div>
         </div>
+    </header>
+    <main class="main">
+        <section class="inicio" id="inicio">
+            <div class="inicioCont">
+                <h1>Ola, meu nome é
+                    <br>
+                <span>Caio Paulino</span>
+                <br>
+                Dev Front-End
+                </h1>
+                <div class="inicioVazio"></div>
+                <img src="./img/900x900.png" alt="inicio logo">
+            </div>
         </section>
         <section class="habilidades">
-            <div class="habilidadesCont" data-window>
-                <img src="./img/habilidades.png" alt="habilidades-pessoa">
-                <div class="habilidadesTextos">
-                    <span>Habilidades</span>
-                    <div>
-                        <i class="fa-brands fa-html5"></i>
-    
-                        <i class="fa-brands fa-css3-alt"></i>
-
-                        <i class="fa-brands fa-js"></i>
-    
-                        <i class="fa-brands fa-react"></i>
-    
-                        <i class="fa-brands fa-node-js"></i>
-                        
-                        <i class="fa-brands fa-sass"></i>
+            <div class="habCont">
+                <div class="sobre">
+                    <h2>Sobre mim</h2>
+                    <p>Olá, meu nome é <span>Caio Paulino da Silva</span>, Frontend Developer apaixonado por criar interfaces interativas e funcionais para aplicações web. Com foco em usabilidade e design responsivo. Atualmente sou <span>freelancer</span> como Frontend e sempre procurando me desenvolver a cada dia.</p>
+                </div>
+                <div class="hab">
+                    <h2>Habilidades</h2>
+                    <div class="habIcon">
+                        <ul>
+                            <li>
+                                <i class="fa-brands fa-html5 iconHabilidades" aria-hidden="true"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-js"></i>
+                                <i class="fa-brands fa-react"></i>
+                                <i class="fa-brands fa-node-js"></i>
+                                <i class="fa-brands fa-sass"></i>
+                                <i class="fa-brands fa-wordpress"></i>
+                            </li>
+                        </ul>
                     </div>
-                    <p>Estou sempre aprimorando minhas técnica e procurando sempre descobrir coisas novas</p>
                 </div>
             </div>
         </section>
-        <section class="projetos" id="projetos">
-            <div class="projetosCont">
-                <span style="font-size: 2.5rem;">PROJETOS</span>
-            <div class="buttons">
-                    <button data-button><i class="fa-solid fa-user"></i>Pessoais</button>
-                    <button data-button> <i class="fa-solid fa-user-tie"></i>Profissional</button>
-            </div>
-              <div class="projetosAll">
-
-                <div class="projetoSlide" data-jobs="1">
-                    <a href="https://caiopaulin0.github.io/FdsMusic/"><img src="./img/projeto1.png"></a>
-                    <div class="projetoSlideTexto">
-                        <span>FDS Music</span>
-                        <p>tecnologias</p>
-                        <div class="projetoSlideIcon">
-                            <i class="fa-brands fa-html5"></i>
-
-                            <i class="fa-brands fa-css3-alt"></i>
-
-                            <i class="fa-brands fa-js"></i>
-
+        <section class="sites">
+            <div class="sitesCont">
+                <h2>Formas diferentes de construção de sites</h2>
+    
+                <div class="sCard">
+                    <div class="sitesCard">
+                        <div class="sitesIcon">
+                            <div class="icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <span>01</span>
                         </div>
-                </div>
-                </div>
-
-                <div class="projetoSlide" data-jobs="1">
-                    <a href="https://caiopaulin0.github.io/Doggos/"><img src="./img/projeto2.png"></a>
-                    <div class="projetoSlideTexto">
-                        <span>Tela de Login</span>
-                        <p>tecnologias</p>
-                        <div class="projetoSlideIcon">
-                            
-                            <i class="fa-brands fa-html5"></i>
-
-                            <i class="fa-brands fa-css3-alt"></i>
-
-                            <i class="fa-brands fa-js"></i>
-
+                        <span>Feito com código</span>
+                        <p>Liberdade para construção , total liberdade para personalizar cada detalhe do design e das funcionalidades necessitadas.</p>
+                    </div>
+                    <span class="lCard">ou </span>
+                    <div class="sitesCard">
+                        <div class="sitesIcon">
+                            <div class="icon">
+                                <i class="fa-brands fa-wordpress-simple"></i>
+                            </div>
+                            <span>02</span>
                         </div>
-                </div>
-                </div>
-
-                <div class="projetoSlide" data-jobs="1">
-                    <a href="https://caiopaulin0.github.io/ecommerce-product-page-main/"><img src="./img/projeto4.png"></a>
-                    <div class="projetoSlideTexto">
-                        <span>Ecommerce Page</span>
-                        <p>tecnologias</p>
-                        <div class="projetoSlideIcon">
-                            <i class="fa-brands fa-html5"></i>
-
-                            <i class="fa-brands fa-css3-alt"></i>
-
-                            <i class="fa-brands fa-js"></i>
-
-                        </div>
-                </div>
-                </div>
-
-                <div class="projetoSlide" data-jobs="1">
-                    <a href="https://jovial-bartik-36f87f.netlify.app/"><img src="./img/projeto6.png"></a>
-                    <div class="projetoSlideTexto">
-                        <span>Short Link API</span>
-                        <p>tecnologias</p>
-                        <div class="projetoSlideIcon">
-                            <i class="fa-brands fa-html5"></i>
-
-                            <i class="fa-brands fa-css3-alt"></i>
-
-                            <i class="fa-brands fa-js"></i>
-
-                        </div>
-                </div>
-                </div>
-
-                <div class="projetoSlide" data-jobs="1">
-                    <a href="https://imperialcarteiracustomizada.netlify.app/"><img src="./img/projeto5.png"></a>
-                    <div class="projetoSlideTexto">
-                        <span>Imperial Cartão</span>
-                        <p>tecnologias</p>
-                        <div class="projetoSlideIcon">
-                            <i class="fa-brands fa-html5"></i>
-
-                            <i class="fa-brands fa-css3-alt"></i>
-
-                            <i class="fa-brands fa-js"></i>
-
-                            <i class="fa-brands fa-react"></i>
-
-                            <i class="fa-brands fa-sass"></i>
-
-                        </div>
-                </div>
-                </div>
-
-                <div class="projetoSlide" data-jobs="1">
-                    <a href="https://inspiring-wiles-c1bfa5.netlify.app/"><img src="./img/projeto7.png"></a>
-                    <div class="projetoSlideTexto">
-                        <span>Interactive Pricing</span>
-                        <p>tecnologias</p>
-                        <div class="projetoSlideIcon">
-                            <i class="fa-brands fa-html5"></i>
-
-                            <i class="fa-brands fa-css3-alt"></i>
-
-                            <i class="fa-brands fa-js"></i>
-
-                        </div>
-                </div>
-                </div>
-                  
-                  <div class="projetoSlide" data-jobs="1">
-                    <a href="https://roaring-salmiakki-25968e.netlify.app/"><img src="./img/projeto8.png"></a>
-                    <div class="projetoSlideTexto">
-                        <span>REST Countries API</span>
-                        <p>tecnologias</p>
-                        <div class="projetoSlideIcon">
-                            <i class="fa-brands fa-html5"></i>
-
-                            <i class="fa-brands fa-css3-alt"></i>
-
-                            <i class="fa-brands fa-js"></i>
-                            
-                            <i class="fa-brands fa-react"></i>
-
-                        </div>
-                </div>
-                </div>
-
-                <div class="projetoSlide hiden" data-jobs="2">
-                    <a href="https://www.syntzcriativa.com/"><img src="./img/projeto3.png"></a>
-                    <div class="projetoSlideTexto">
-                        <span>Syntz Criativa</span>
-                        <p>Tecnologia</p>
-                        <div class="projetoSlideIcon">
-
-                            <i class="fa-brands fa-html5"></i>
-
-                            <i class="fa-brands fa-css3-alt"></i>
-
-                            <i class="fa-brands fa-js"></i>
-
-                            <i class="fa-brands fa-sass"></i>
-
-                        </div>
+                        <span>Wordpress</span>
+                        <p>Solução mais prática e rápida, utilizando temas e plugins e um bom nível de personalização sem necessidade de começar do zero com código.
+                        </p>
                     </div>
                 </div>
-                  
-                  <div class="projetoSlide hiden" data-jobs="2">
-                    <a href=""><img src="./img/projeto10.png"></a>
-                    <div class="projetoSlideTexto">
-                        <span>Lilika Rações</span>
-                        <p>Tecnologia</p>
-                        <div class="projetoSlideIcon">
+            </div>
+        </section>
+        <section class="projetos"id="projetos">
+            
+            <div class="projetosCont">
+                <h2>Projetos</h2>
+                <ul>
+                    <li class="cardPro c1">
+                        <div class="cardProCont">
+                            <div class="cardProContName">
+                                <span>Sintese</span>
 
-                            <i class="fa-brands fa-html5"></i>
+                                <p>PROFISSIONAL</p>
+                            </div>
+                            <p class="cardText">Site institucional da Sintese, empresa de construção de sites e identidade visual.</p>
+                            <div class="cardProTec">
+                                <i class="fa-brands fa-wordpress"></i>
+                            </div>
+                            <a href="https://sintesecriativa.com/">
+                                <span>Link do Projeto</span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="cardPro c2">
+                        <div class="cardProCont">
+                            <div class="cardProContName">
+                                <span>Lilika Rações</span>
+
+                                <p>PROFISSIONAL</p>
+                            </div>
+                            <p class="cardText">Plataforma desenvolvida para monitoramento de estoque de uma loja de pet shop.</p>
+                            <div class="cardProTec">
+                                <i class="fa-brands fa-html5"></i>
 
                             <i class="fa-brands fa-css3-alt"></i>
 
                             <i class="fa-brands fa-js"></i>
 
                             <i class="fa-brands fa-node-js"></i>
-
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    </li>
 
-              </div>
+                    <li class="cardPro c3">
+                        <div class="cardProCont">
+                            <div class="cardProContName">
+                                <span>Ecommerce Page </span>
+
+                                <p class="cardPe">PESSOAL</p>
+                            </div>
+                            <p class="cardText">Página de produto de uma loja de sapatos.Desafio da plataforma Frontend Mentor.</p>
+                            <div class="cardProTec">
+                                <i class="fa-brands fa-html5 iconHabilidades" aria-hidden="true"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+                            <a href="https://caiopaulin0.github.io/ecommerce-product-page-main/">
+                                <span>Link do Projeto</span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="cardPro c4">
+                        <div class="cardProCont">
+                            <div class="cardProContName">
+                                <span>Imperial Cartão</span>
+
+                                <p class="cardPe">PESSOAL</p>
+                            </div>
+                            <p class="cardText">Projeto feito para a comunidade de Counter-Strike em homenagem ao time da Imperial, simulação de uma carteirinha virtual.</p>
+                            <div class="cardProTec">
+                            <i class="fa-brands fa-html5"></i>
+
+                            <i class="fa-brands fa-css3-alt"></i>
+
+                            <i class="fa-brands fa-js"></i>
+
+                            <i class="fa-brands fa-react"></i>
+
+                            <i class="fa-brands fa-sass"></i>
+                            </div>
+                            <a href="https://imperialcarteiracustomizada.netlify.app/">
+                                <span>Link do Projeto</span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="cardPro c5">
+                        <div class="cardProCont">
+                            <div class="cardProContName">
+                                <span>REST Countries API</span>
+
+                                <p class="cardPe">PESSOAL</p>
+                            </div>
+                            <p class="cardText">API para listagem de todos os países, com sistema de busca e filtro por região.Desafio da plataforma Frontend Mentor.</p>
+                            <div class="cardProTec">
+                                <i class="fa-brands fa-html5"></i>
+
+                                <i class="fa-brands fa-css3-alt"></i>
+    
+                                <i class="fa-brands fa-js"></i>
+                                
+                                <i class="fa-brands fa-react"></i>
+                            </div>
+                            <a href="https://roaring-salmiakki-25968e.netlify.app/">
+                                <span>Link do Projeto</span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="cardPro c6">
+                        <div class="cardProCont">
+                            <div class="cardProContName">
+                                <span>Interactive Pricing
+                                </span>
+
+                                <p class="cardPe">PESSOAL</p>
+                            </div>
+                            <p class="cardText">Projeto para preços interativos com controle e alternância de preços.Desafio da plataforma Frontend Mentor.</p>
+                            <div class="cardProTec">
+                                <i class="fa-brands fa-html5"></i>
+
+                                <i class="fa-brands fa-css3-alt"></i>
+    
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+                            <a href="https://inspiring-wiles-c1bfa5.netlify.app/">
+                                <span>Link do Projeto</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
 
-    <footer id="contato">
+    <footer>
         <div class="footerCont">
-            <div>
-                <img src="./img/LOGO.png" alt="footer-logo">
-                <span>Copyright (c) 2021 Caio Paulino</span>
+            <img class="headerLogo" src="./img/50x.png" alt="logo-de-caio-paulino">
+
+            <span>Copyright (c) 2021 Caio Paulino</span>
+
+            <div class="headerIcon">
+                <a href="https://github.com/CaioPaulin0">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 16 16">
+                        <path d="M 7.5 1 C 3.910156 1 1 3.90625 1 7.488281 C 1 10.355469 2.863281 12.789063 5.445313 13.648438 C 5.769531 13.707031 6 13.375 6 13.125 C 6 12.972656 6.003906 12.789063 6 12.25 C 4.191406 12.640625 3.625 11.375 3.625 11.375 C 3.328125 10.625 2.96875 10.410156 2.96875 10.410156 C 2.378906 10.007813 3.011719 10.019531 3.011719 10.019531 C 3.664063 10.0625 4 10.625 4 10.625 C 4.5 11.5 5.628906 11.414063 6 11.25 C 6 10.851563 6.042969 10.5625 6.152344 10.378906 C 4.109375 10.019531 2.996094 8.839844 3 7.207031 C 3.003906 6.242188 3.335938 5.492188 3.875 4.9375 C 3.640625 4.640625 3.480469 3.625 3.960938 3 C 5.167969 3 5.886719 3.871094 5.886719 3.871094 C 5.886719 3.871094 6.453125 3.625 7.496094 3.625 C 8.542969 3.625 9.105469 3.859375 9.105469 3.859375 C 9.105469 3.859375 9.828125 3 11.035156 3 C 11.515625 3.625 11.355469 4.640625 11.167969 4.917969 C 11.683594 5.460938 12 6.210938 12 7.207031 C 12 8.839844 10.890625 10.019531 8.851563 10.375 C 8.980469 10.570313 9 10.84375 9 11.25 C 9 12.117188 9 12.910156 9 13.125 C 9 13.375 9.226563 13.710938 9.558594 13.648438 C 12.140625 12.785156 14 10.355469 14 7.488281 C 14 3.90625 11.089844 1 7.5 1 Z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/caiopaulin0/">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 16 16">
+                        <path d="M 2.757813 1 C 1.792969 1 1 1.792969 1 2.757813 L 1 12.246094 C 1 13.207031 1.792969 14 2.757813 14 L 12.246094 14 C 13.207031 14 14 13.207031 14 12.246094 L 14 2.757813 C 14 1.792969 13.207031 1 12.246094 1 Z M 2.757813 2 L 12.246094 2 C 12.667969 2 13 2.332031 13 2.757813 L 13 12.246094 C 13 12.667969 12.667969 13 12.246094 13 L 2.757813 13 C 2.332031 13 2 12.667969 2 12.246094 L 2 2.757813 C 2 2.332031 2.332031 2 2.757813 2 Z M 4 3 C 3.449219 3 3 3.449219 3 4 C 3 4.550781 3.449219 5 4 5 C 4.550781 5 5 4.550781 5 4 C 5 3.449219 4.550781 3 4 3 Z M 3 6 L 3 12 L 5 12 L 5 6 Z M 6 6 L 6 12 L 8 12 L 8 9.320313 C 8 8.488281 8.078125 7.742188 9.078125 7.742188 C 10.0625 7.742188 10 8.636719 10 9.375 L 10 12 L 12 12 L 12 9.039063 C 12 7.320313 11.640625 6 9.691406 6 C 8.753906 6 8.28125 6.375 8.023438 6.875 L 8 6.875 L 8 6 Z"></path>
+                    </svg>
+                </a>
+                <a href="mailto:caiopaulinoPE@hotmail.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 16 16">
+                        <path d="M 4 1 L 8 4.5 L 12 1 Z M 14.441406 2.34375 L 13.5 3 C 13.535156 3 13.5625 3.011719 13.59375 3.019531 L 8 6.890625 L 2.40625 3.019531 C 2.4375 3.011719 2.464844 3 2.5 3 L 1.546875 2.351563 C 1.214844 2.628906 1 3.035156 1 3.5 L 1 11.5 C 1 12.328125 1.671875 13 2.5 13 L 13.5 13 C 14.328125 13 15 12.328125 15 11.5 L 15 3.5 C 15 3.03125 14.78125 2.617188 14.441406 2.34375 Z M 3 5.773438 L 8 9.234375 L 13 5.773438 L 13 12 L 3 12 Z"></path>
+                    </svg>
+                </a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contatos</a></li>
-                </ul>
-            </nav>
-            <div class="footerIcons">
-                <a href="https://github.com/CaioPaulin0"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/caiopaulin0/"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/caiopaulin0/"><i class="fab fa-instagram-square"></i></a>
-                <a href="mailto:caiopaulinoPE@hotmail.com"><i class="fas fa-envelope-square"></i></a>
-              </div>
         </div>
     </footer>
-    
     <script src="./js/index.js" defer></script>
+    <script src="./js/animacoes.js"></script>
 </body>
 </html>
