@@ -199,6 +199,7 @@ footer {
   font-size: 18px;
   color: #FFFFFF;
   margin-top: 5px;
+  line-height: 31px;
 }
 .sobre span {
   color: #0053C5;
@@ -255,6 +256,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 160px 20px;
+  background-color: #090A0C;
 }
 .projetos h2 {
   color: #FFFFFF;
@@ -284,7 +286,7 @@ footer {
   width: 100%;
   height: 300px;
   border: 1px solid #003680;
-  background-color: #141619;
+  background-color: rgba(0, 0, 0, 0);
   padding: 15px;
   list-style: none;
   border-radius: 6px;
@@ -352,11 +354,11 @@ footer {
   width: 100%;
   display: flex;
   gap: 10px;
-  margin-top: 12px;
+  padding-top: 12px;
 }
 .cardProTec i {
   font-size: 32px;
-  color: #F7F052;
+  color: #0053C5;
 }
 
 .c1 {
@@ -399,86 +401,6 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.sites {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 160px 20px;
-  background-color: #090A0C;
-}
-
-.sCard {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
-}
-.sCard .lCard {
-  margin: auto;
-  font-size: 22px;
-  font-weight: 600;
-  color: #ffffff;
-  padding: 0 20px;
-}
-
-.sitesCont {
-  max-width: 1200px;
-  width: 100%;
-  height: -moz-max-content;
-  height: max-content;
-  margin: 0 auto;
-  opacity: 0;
-}
-.sitesCont h2 {
-  color: #FFFFFF;
-  font-size: 3rem;
-  text-align: center;
-}
-.sitesCont span {
-  font-size: 20px;
-  font-weight: 600;
-  color: #D3D3D3;
-}
-.sitesCont p {
-  color: #D3D3D3;
-}
-
-.sitesCard {
-  max-width: 420px;
-  width: 490px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 30px 20px;
-  background-color: #121212;
-  border-radius: 6px;
-  border: 1px solid #003680;
-}
-
-.sitesIcon {
-  display: flex;
-  justify-content: space-between;
-}
-.sitesIcon span {
-  font-weight: 400;
-  color: #0053C5;
-}
-
-.icon {
-  width: 44px;
-  height: 44px;
-  padding: 10px;
-  background-color: #003680;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-}
-.icon i {
-  font-size: 22px;
-  color: #ffffff;
-  margin: auto;
 }
 
 @media screen and (max-width: 1030px) {
@@ -529,29 +451,10 @@ footer {
   .projetosCont ul li {
     max-width: 100%;
   }
-  .sCard {
-    flex-direction: column;
-  }
-  .sCard .sitesCard {
-    max-width: 100%;
-    width: 100%;
-    height: -moz-max-content;
-    height: max-content;
-    box-sizing: border-box;
-  }
-  .sCard .sitesCard span {
-    margin-top: 10px;
-  }
-  .sCard .sitesCard p {
-    margin-top: 25px;
-  }
-  .sCard .lCard {
-    padding: 20px;
-  }
   .sitesCont h2, .sobre h2, .hab h2, .projetos h2 {
     font-size: 2.3rem;
   }
-  .habilidades, .sites, .projetos {
+  .habilidades, .projetos {
     padding: 70px 20px;
   }
   .habCont {
