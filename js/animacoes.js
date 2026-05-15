@@ -1,6 +1,5 @@
 const div = document.querySelector('.habCont');
 const proj = document.querySelector('.projetosCont');    
-const sites = document.querySelector('.sitesCont');    
     const callback = (entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -17,4 +16,3 @@ const sites = document.querySelector('.sitesCont');
     // Observar a div
     observer.observe(div);
     observer.observe(proj);
-    observer.observe(sites);
