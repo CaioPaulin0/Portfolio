@@ -2,8 +2,6 @@ const header = document.querySelector('header')
 const main = document.querySelector('main')
 
 window.addEventListener('scroll', () =>{
-    console.log(window.scrollY)
-
     if(window.scrollY > 150){
         header.style.backgroundColor = '#141414'
         return header.style.position = 'fixed'
@@ -30,3 +28,7 @@ btnHeader.addEventListener('click',() =>{
     }
 
 })
+
+
+const horario = new Date()
+
