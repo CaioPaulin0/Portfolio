@@ -25,6 +25,7 @@ header, footer {
   z-index: 2;
 }
 
+
 footer {
   height: -moz-max-content;
   height: max-content;
